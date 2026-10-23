@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>名字Le指数计算器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>名字Le指数计算器</h1>
+        <p class="subtitle">输入一个名字，看看"科学"的计算结果！</p>
+        <p class="warning">(纯属娱乐，请勿当真)</p>
+
+        <input type="text" id="nameInput" placeholder="输入名字（试试你朋友的名字）">
+        <button id="calcBtn">开始计算</button>
+
+        <!-- 结果区默认隐藏，算完才显示 -->
+        <div id="resultArea" class="hidden">
+            <h2 id="resultTitle">计算结果 for "XXX"</h2>
+            <div class="progress-bar">
+                <div id="progressFill" class="progress-fill">0%</div>
+            </div>
+            <p id="resultText">文案在这里</p>
+        </div>
+        
+        <p class="footer">Made by X1n018
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
